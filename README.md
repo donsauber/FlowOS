@@ -1,115 +1,73 @@
-<!--
-This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-If a copy of the MPL was not distributed with this file, you can obtain one at:
-https://mozilla.org/MPL/2.0/.
--->
-# **Flowgramming Philosophy**
+# Welcome to Flowgramming
 
-**Programming that reads like a sentence.**
+Flowgramming is an open project to rethink how humans and computers talk to each other.
 
----
+Traditional programming is powerful but inaccessible — built around syntax, keywords, and endless context-switching. Flowgramming flips that on its head.  
+Here, **programs read like sentences.**
 
-## **Why Flowgramming?**
+> “Take the input, sort it using low memory, translate the results, and log the output.”
 
-Traditional programming is powerful, but difficult for most people to learn. It often requires:
-
-* Learning abstract syntax and formatting rules
-
-* Memorizing library functions and language quirks
-
-* Managing memory, error handling, and runtime behavior manually
-
-**Flowgramming** reimagines code as something readable, modular, and flow-based—built around concepts people already understand: **sentences, actions, and roles.**
+That’s not pseudocode — that’s an executable **FlowScript**.  
+Each piece of logic is modular, auditable, and self-describing. You tell the system *what* you want done, and it safely decides *how* to do it through modular building blocks called **FlowBlocks**.
 
 ---
 
-## **Programming as a Sentence**
+## The Core Idea
 
-At its core, a FlowScript describes **what to do**, **how to do it**, and **in what order**. Each line of logic becomes as readable as a sentence:
+Flowgramming treats computation as a collaboration of modular units:
 
-“Take the input, sort it using low memory, translate the results, and log the output.”
+- **FlowScripts** describe intent — the readable logic.  
+- **ActionBlocks** perform tasks (the verbs).  
+- **DataBlocks** hold information (the nouns).  
+- **CommBlocks** handle communication.  
+- **FlowDirector** runs and monitors everything, with built-in trust enforcement through **FlowGuard** and transparent logging through **FlowLog**.
 
-This translates directly to Flowgramming logic:
-
-* **DataBlocks** \= Nouns  
-   Represent the data being passed, used, or transformed
-
-* **Actions** \= Verbs  
-   Represent the goals or tasks (e.g., “sort list”, “send email”)
-
-* **ActionBlocks** \= Code modules that perform the actions  
-   Handled automatically by the system; you don’t need to write them
-
-* **Action Tags** \= Adverbs  
-   Modify *how* the action is performed (e.g., `encrypted`, `strict_mode`, `low_memory`)
-
-* **FlowScripts** \= The sentence structure  
-   They organize the flow, define intent, and control logic execution
+Every part of the system is sandboxed, self-reporting, and open to audit.  
+Security and clarity are not afterthoughts — they’re the foundation.
 
 ---
 
-## **A Simple Example**
+## What We’re Building
 
-`action:`  
-  `intent: "sort_list"`  
-  `input: "DataBlock: numbers.raw"`  
-  `output: "DataBlock: numbers.sorted"`  
-  `tags: [low_memory, auditable]`
+Flowgramming isn’t just a new language — it’s a **Flow Operating System (FlowOS)** built on principles of:
+- Modular, self-contained computation  
+- Declarative execution (focus on *what*, not *how*)  
+- Trust, transparency, and auditability  
+- Readable logic for humans, verifiable logic for machines  
 
-This FlowScript sentence means:
-
-“Sort the list in `numbers.raw`, use low memory, log every step, and save to `numbers.sorted`.”
-
-You don’t have to choose which algorithm or library to use. The system will:
-
-* Pick the best `ActionBlock` for sorting
-
-* Enforce `low_memory` and `auditable` execution
-
-* Handle errors and fallback logic if needed
-
-* Annotate the script with results
+You can think of it as **an interpreter for intent** — a framework that lets anyone describe complex workflows safely and understandably.
 
 ---
 
-## **How It Helps Beginners**
+## How You Can Contribute
 
-* **No syntax errors**: You’re describing intent, not writing code
+This is an early-stage, open project. You can help by:
+- Reviewing and improving the documentation in `/docs`  
+- Suggesting architectural ideas in Discussions  
+- Helping design the first FlowScript interpreter (Node prototype)  
+- Writing sample FlowScripts to test the concept  
+- Exploring potential integrations (UI, data handling, etc.)  
 
-* **No searching for libraries**: The system picks the best ActionBlock
-
-* **No memory management**: Blocks scale internally and are sandboxed
-
-* **No hidden behavior**: All steps are logged and explainable
-
-* **No compiling**: FlowScripts are directly runnable workflows
-
-* **No API clutter**: The CommSystem handles all communication logic
-
----
-
-## **How It Helps Experts**
-
-* **Fine-grained control**: Use `strict_mode`, specific block IDs, and tag constraints
-
-* **Rapid prototyping**: Change the logic by changing just one line
-
-* **Reusable logic**: All Actions and Blocks are modular and callable anywhere
-
-* **Observable pipelines**: FlowLog tracks performance and errors across systems
-
-* **Expandable libraries**: Add or convert new logic using ActionBlocks and the ActionSystem
+If you’re new to the repo, start here:
+- [Flowgramming Philosophy](../README.md)  
+- [Architecture Overview](../architecture/Overview.md)  
+- [ActionSystem and Tags](../docs/ActionSystem.md)  
 
 ---
 
-## **A New Way to Think**
+## Collaboration Guidelines
 
-Flowgramming lets you focus on **what you want to happen**, not **how to make the computer do it**. You're no longer writing "programs" in the old sense—you're **authoring workflows** using:
+- Be curious, constructive, and transparent.  
+- No gatekeeping — this project is meant to welcome experimentation.  
+- Credit matters, and so does collaboration.  
+- If you’re unsure where to start, comment below — we’ll point you to an open issue or idea thread.  
 
-* Clear sentences
+---
 
-* Standardized building blocks
+## Why It Matters
 
-* Dynamic execution
+Programming shouldn’t be a ritual of syntax.  
+It should be a conversation between logic and imagination — readable, modular, and secure.  
+Flowgramming aims to make that possible.
 
-* Auditable, collaborative evolution
+Welcome aboard.
