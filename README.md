@@ -48,11 +48,6 @@ This is an early-stage, open project. You can help by:
 - Writing sample FlowScripts to test the concept  
 - Exploring potential integrations (UI, data handling, etc.)  
 
-If you’re new to the repo, start here:
-- [Flowgramming Philosophy](../README.md)  
-- [Architecture Overview](../architecture/Overview.md)  
-- [ActionSystem and Tags](../docs/ActionSystem.md)  
-
 ---
 
 ## Collaboration Guidelines
