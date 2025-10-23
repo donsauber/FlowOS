@@ -1,4 +1,4 @@
-Flowgramming 
+## Flowgramming 
 
 So we have dozens of programming languages out there and they mostly cover the same terrain with a small difference. However, they also function as silos for most work. They all have data handling, memory management, procedures/functions, and some sort of UI set up in most of them. My idea was what if we separated these into separate systems and treated each one like a node in a workflow. 
 
@@ -6,7 +6,7 @@ The problem isn't having to learn programming. The problem I was having was havi
 
 How can we stop that? We need to break the problem into component parts. We need data that is independent of functions. We need Operating Systems that are independent of platform. We need components that are able to be put together in different ways instead of something that has to be programming in one way from start to finish or we have to start over in another language.
 
-This is what this paradigm is about.
+**This is what this paradigm is about.**
 	
 Data is like nouns. You have a set of nouns in a dataBlock. It would have all the data that you are working with. So hundreds of lines of code go there. Then you have functions or modules or programming code which I just call Actions. These are the verbs. This converts the data from one format to another and stores it back in the dataBlock or in a new dataBlock.
 
@@ -14,16 +14,16 @@ So you have one person who puts the dataBlock together from data that he collect
 
 My goal is to create an ecosystem of these modules so that we can have multiple uses for them. 
 
-Applications - The first use would be for creating applications with more ease but be able to go back through at any point and upgrade any of the modules without having to refactor the whole system or find a programmer for because the application was written in a less popular language. 
+**Applications** - The first use would be for creating applications with more ease but be able to go back through at any point and upgrade any of the modules without having to refactor the whole system or find a programmer for because the application was written in a less popular language. 
 
-IOT - Then take the same system of an application and strip it down to the smallest version to make IOT systems that are able to interconnect and you can program easily. 
+**IOT** - Then take the same system of an application and strip it down to the smallest version to make IOT systems that are able to interconnect and you can program easily. 
 
-Operating Systems - Then you can turn the same set up into an Operating System that can have incremental improvements without having to download a whole new version each time. It would have security built into it at all modules. 
+**Operating Systems** - Then you can turn the same set up into an Operating System that can have incremental improvements without having to download a whole new version each time. It would have security built into it at all modules. 
 
-Company - Then take all of those modules and make them function for a corporation. Integrate Access Control and Permissions with automatic auditing to notice when one person keeps producing problematic entries versus someone who keeps going above and beyond. 
+**Companies** - Then take all of those modules and make them function for a corporation. Integrate Access Control and Permissions with automatic auditing to notice when one person keeps producing problematic entries versus someone who keeps going above and beyond. 
 
 
-Next Step
+**Next Step**
 
 I want to start building these as workflows in Node Red in order to finalize the details of the first few modules. We can work out the problems for each system and block combination this way and then get them coded for long term use. I want to set up each system and block combination as something that can be dropped into a workflow as a new node and solve problems on its own. Eventually all of these nodes will be able to function as a whole system. 
 
