@@ -1,5 +1,7 @@
 ## Flowgramming 
 
+Flowgramming is a Modular Cross-Language Programming framework—a way to make software composed of independent, auditable building blocks that can interoperate regardless of the languages they’re written in.
+
 So we have dozens of programming languages out there and they mostly cover the same terrain with a small difference. However, they also function as silos for most work. They all have data handling, memory management, procedures/functions, and some sort of UI set up in most of them. My idea was what if we separated these into separate systems and treated each one like a node in a workflow. 
 
 The problem isn't having to learn programming. The problem I was having was having to learn programming over and over and over for different things. I started with Basic, then C, then C++ (which I hated), then Java (which I was trying to learn when it first came out and no one seemed to understand it then), then php, then javascript, then python. I started to realize it was just the same thing over and over. The problem was that something programmed in one language was locked up most of the time in that language. That is why they are trying to get COBOL programmers right now. The problem IS the languages. We are siloing all of our work over the years. We need to stop that.
